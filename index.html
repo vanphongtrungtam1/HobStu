@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#073b8f">
+  <meta name="description" content="Student lesson: Vocabulary review, VSTEP Listening Parts 2–3 and Reading Passages 2–4.">
+  <title>Hobbies & Leisure · Students</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <img src="logo-cfl.jpg" alt="Logo Trung tâm Ngoại ngữ Đại học Cần Thơ" class="brand-logo">
+    <div class="brand-copy">
+      <p class="eyebrow">VSTEP · B1+ · Hobbies &amp; Leisure</p>
+      <h1>Lesson Review &amp; Practice</h1>
+      <span class="teacher-badge">Students</span>
+    </div>
+    <img src="logo-35-years.jpg" alt="Logo kỷ niệm 35 năm CFL" class="brand-logo anniversary-logo">
+  </header>
+
+  <nav class="lesson-nav" aria-label="Lesson sections">
+    <div class="tab-strip" role="tablist">
+      <button class="lesson-tab active" role="tab" aria-selected="true" data-tab="review">1. Review</button>
+      <button class="lesson-tab" role="tab" aria-selected="false" data-tab="listening-2">2. Listening Part 2</button>
+      <button class="lesson-tab" role="tab" aria-selected="false" data-tab="listening-3">3. Listening Part 3</button>
+      <button class="lesson-tab" role="tab" aria-selected="false" data-tab="reading-2">4. Reading Passage 2</button>
+      <button class="lesson-tab" role="tab" aria-selected="false" data-tab="reading-3">5. Reading Passage 3</button>
+      <button class="lesson-tab" role="tab" aria-selected="false" data-tab="reading-4">6. Reading Passage 4</button>
+    </div>
+    <div class="font-tools" aria-label="Font size">
+      <button type="button" id="fontDown" title="Decrease font size">A−</button>
+      <output id="fontSize">18</output>
+      <button type="button" id="fontUp" title="Increase font size">A+</button>
+    </div>
+  </nav>
+
+  <main id="app" tabindex="-1"></main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
